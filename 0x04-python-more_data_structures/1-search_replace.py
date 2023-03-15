@@ -9,4 +9,4 @@ def search_replace(my_list, search, replace):
         return my_list
 
     new_lst = [elem if elem != search else replace for elem in my_list]
-    return new_lst 
+    return new_lst
